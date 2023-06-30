@@ -13,7 +13,7 @@ class CookBook(Thread):
     # this method prints only the message
     def print_message(self):
         print(self.message)
-
+        
     # The run method prints ten times the message
     def run(self):
         print("Thread Starting\n")
